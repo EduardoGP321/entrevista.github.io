@@ -1,0 +1,25 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+.card-custom {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-info {
+    font-weight: 600;
+}
+
+#nameList {
+    max-height: 400px; 
+    overflow-y: auto; 
+    padding-right: 10px; 
+}
+
+.name-button {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
